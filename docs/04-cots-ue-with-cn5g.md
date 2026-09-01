@@ -60,7 +60,7 @@ Sequence: start tcpdump → start gNB → connect phone → wait for 5G icon →
 ## Result
 UE registered successfully to the OAI core and connected to the network, achieving a **maximum throughput of 120 Mbps**.
 
-<img width="1248" height="699" alt="image" src="https://github.com/user-attachments/assets/9fbd2540-8a2b-4691-8799-7486ea3da21b" />
+<img width="1237" height="693" alt="image" src="https://github.com/user-attachments/assets/f09ec494-6e03-4ea9-8902-2ea03c3948bf" />
 
 ## Database Configuration
 The database initialization file used by the OAI CN5G deployment is available below:
