@@ -1,0 +1,18 @@
+# Normalize line endings for all text files to LF in the repository,
+# regardless of what OS checks them out or commits them.
+* text=auto eol=lf
+
+# Explicit handling for markdown and common text files
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.conf text eol=lf
+*.sh text eol=lf
+*.gitignore text eol=lf
+
+# Treat these as binary (no line-ending conversion, no diffing as text)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
